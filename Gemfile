@@ -5,9 +5,9 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.0'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', group: [:development, :test]
-
-gem 'bootstrap-sass', '3.3.5'
 # Use bootstrap library for styles
+gem 'bootstrap-sass', '3.3.5'
+
 
 #Use Font Awesome library for Icons 
 gem 'font-awesome-sass', '4.2.0'
@@ -35,7 +35,6 @@ gem 'turbolinks'
 gem 'jbuilder', '2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '0.4.0',          group: :doc
-
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
 
